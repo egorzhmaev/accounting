@@ -5,6 +5,22 @@
 * GUI: Терминал (интерактивный)
 * Тестирование: `pytest`
 
+## 0. Подготовка
+### 1. Виртуальное окружение
+```bash
+python3.9 -m venv venv
+```
+
+### 2. Активация виртуального окружения
+```bash
+source venv/bin/activate
+```
+
+### 3. Установка зависимостей приложения
+```bash
+pip install -r requirements.txt
+```
+
 ## 1. Запуск
 ```bash
 python3 main.py
