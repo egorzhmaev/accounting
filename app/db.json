@@ -19,5 +19,12 @@
     "type": "EXPENSE",
     "amount": 100,
     "description": "Купил сок и шоколадку"
+  },
+  {
+    "id": "766ea604-b74c-4eee-a558-29f96678255b",
+    "date": "2024-05-07T20:50:14.085184+00:00",
+    "type": "INCOME",
+    "amount": 200,
+    "description": "Нашёл"
   }
 ]

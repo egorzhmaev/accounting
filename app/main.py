@@ -303,7 +303,7 @@ def add_transaction_check_view(
     """
     Displays transaction add view confirmation.
     """
-
+    print('\n[Проверьте данные]')
     print(f'Тип: {expense_type}')
     print("Сумма: {:.02f} руб.".format(expense_amount))
     print("Дата: {}.".format(expense_date.strftime("%d.%m.%Y %H:%M:%S")))
