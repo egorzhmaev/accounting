@@ -26,5 +26,12 @@
     "type": "INCOME",
     "amount": 200,
     "description": "Нашёл"
+  },
+  {
+    "id": "5ebb2021-d509-4783-8435-23182b92e694",
+    "date": "2024-05-07T22:40:31.177642+00:00",
+    "type": "EXPENSE",
+    "amount": 500,
+    "description": "Продукты"
   }
 ]
