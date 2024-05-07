@@ -32,7 +32,7 @@ pip install -r requirements.txt
 
 # 1. Запуск
 ```bash
-python3 main.py
+python main.py
 ```
 
 # 2. Тестирование
