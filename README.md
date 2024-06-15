@@ -5,16 +5,7 @@
 * GUI: Терминал (интерактивный)
 * Тестирование: `pytest`
 
-<details>
-  <summary>СКРИНШОТЫ</summary>
-  <h1>Баланс<h1>
-  <img src="/pics/Пример-1.png?raw=true" alt="Screen 1"/>
-
-  <h1>Добавить транзакцию<h1>
-  <img src="/pics/Пример-2.png?raw=true" alt="Screen 2"/>
-</details>
-
-# 0. Подготовка
+# Подготовка
 ### 1. Виртуальное окружение
 ```bash
 python3.9 -m venv venv
@@ -30,13 +21,27 @@ source venv/bin/activate
 pip install -r requirements.txt
 ```
 
-# 1. Запуск
+# Запуск
 ```bash
 python main.py
 ```
 
-# 2. Тестирование
+# Тестирование
 ```bash
 pytest
 ```
+# Использование приложения
 
+Доступны следующие функции:
+- Баланс (общий баланс, доход, расход)
+- Добавить транзакцию
+- Изменить транзакцию (дата, описание, сумма)
+- Удаление транзакции
+- Поиск по транзакциям
+
+# Примеры работы приложения
+
+  <img src="/pics/Пример-1.png?raw=true" alt="Screen 1"/>
+
+
+  <img src="/pics/Пример-2.png?raw=true" alt="Screen 2"/>
